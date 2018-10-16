@@ -4,7 +4,6 @@
 
 #Imports
 import argparse
-import sys
 import random
 
 #Defines
