@@ -44,8 +44,8 @@ parser.add_argument("-v", "--version", action = 'version', version = '1.0')
 #Pass Arguments into namespace and verify inputs comply with arguments
 args = parser.parse_args()
 
-#Assign Values
 
+#Assign Values
 LENGTH = args.length
 MAX = args.max
 
@@ -63,6 +63,7 @@ file = open(FILE_NAME, "w")
 for x in range(0,LENGTH):
 	file.write(Generate_Request())
 
+	
 #Close File and final print out
 file.close()
 print ("File with name " + FILE_NAME + " generated with " + str(LENGTH) + " requests with a maximum page number of " + str(MAX) + ".")
