@@ -3,7 +3,9 @@ Python Script for Generating an input.txt file for use on your UPRRP CCOM4017 Fa
 
 Script works as is. Currently tested working with python 2.X without any problems. Should also be the case for 3.X
 
-Usage: python generate.py **[highest possible virtual page]** **[total amount of requests]**
+Desde su terminal lo corren asi:
+
+* python generate.py **[highest possible virtual page]** **[total amount of requests]**
 
 Program also has a built in -h and documentation on usage in case you need it.
 
