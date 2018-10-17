@@ -32,7 +32,7 @@ def valid_max(string):
 		
 #Generates the Virtual Memory Access Request
 def Generate_Request():
-	return str(random.choice(OPERATIONS)) + ':' + str(random.randrange(1,MAX)) + '\n'
+	return str(random.choice(OPERATIONS)) + ':' + str(random.randrange(1,MAX+1)) + '\n'
 		
 #---------------------PROGRAM STARTS HERE---------------------#
 #Parser Configuration and Parameters
